@@ -46,7 +46,7 @@ async function getData(BASE_URL,countryName){
         const responses = await fetch(url,{
             method:"GET",
             headers:{
-                'X-RapidAPI-Key': '6e0b67e19amshde0c85ce1a9ccbep1ea652jsn6ddfc14d2c41',
+                'X-RapidAPI-Key': '',
                 'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
             }
         })
